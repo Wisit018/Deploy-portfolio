@@ -219,7 +219,7 @@ function Projects() {
           <p style={{ color: "white" }}>
             Here are a few projects I've worked on recently.
           </p>
-
+{/* project1 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={project1}
@@ -230,18 +230,18 @@ function Projects() {
               description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
-
-          <Col md={4} className="project-card">
+{/* project2  */}
+          <Col md={4} className="project-card"> 
             <ProjectCard
               imgPath={atlux168}
               isBlog={false}
               title="Website atlux168 📂" 
               ghLink="https://github.com/Wisit018?tab=repositories"
               description="【 Tool ⚙️】: Wordpress , Plesk , PHP (basic) , HTML , CSS , Elementor pro , SEO Ranking "
-              description1="【 Details 📖】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description1="【 Details 📖】: Atlux 168 product trading website"
             />
           </Col>
-
+{/* project3 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={atluxerp}
@@ -249,18 +249,18 @@ function Projects() {
               title="Atlux168-ERP 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
               description="【 Tool ⚙️】:  HTML , CSS , JavaScript , ReactJS , ReactIcons , NodeJS , ExpressJS , MongoDB , Mongoose , JWT , Bcrypt , Axios , Bootstrap , React-Bootstrap , React-Router-Dom , React-Icons "
-              description1="【 Details 📖】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description1="【 Details 📖】: Internal management system website, login system, user level, document system, send documents, open bills, send mail, notifications"
             />
           </Col>
-
+{/* project4 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={BlogApp}
               isBlog={false}
               title="BlogApp-LearnReact 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , ReactJS , ReactIcons , Bootstrap , React-Bootstarp"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , ReactJS , ReactIcons , Bootstrap , React-Bootstarp"
+              description1="【 Details 📖】: Learn to develop web applications with React 18, React Router V6, React Hook from start to actual use, Step by Step."
             />
           </Col>
 
@@ -270,8 +270,8 @@ function Projects() {
               isBlog={false}
               title="Website Calculator BMI-Learn Html CSS JS 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
+              description1="【 Details 📖】: This website helps you easily calculate your body mass index (BMI). Just enter your personal information such as gender, age, weight and height and the website will calculate your BMI and display the results along with relevant recommendations."
             />
           </Col>
 
@@ -281,8 +281,8 @@ function Projects() {
               isBlog={false}
               title="Website Calculator BMI-Learn NodeJS ExpressJS 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , NodeJS , ExpressJS , Nodemon " 
+              description1="【 Details 📖】: This website helps you easily calculate your body mass index (BMI). Just enter your personal information such as gender, age, weight and height and the website will calculate your BMI and display the results along with relevant recommendations."
             />
           </Col>
 
@@ -292,8 +292,8 @@ function Projects() {
               isBlog={false}
               title="Website Calculator App React 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons"
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
 
@@ -303,8 +303,8 @@ function Projects() {
               isBlog={false}
               title="Website Currency-converter-API 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons , React fetch API "
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
 
@@ -314,8 +314,8 @@ function Projects() {
               isBlog={false}
               title="Website Denfah Printing 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: Wordpress , Plesk , PHP (basic) , HTML , CSS , Elementor pro , SEO Ranking"
+              description1="【 Details 📖】: Denfah printing website, website about printing media Printing business"
             />
           </Col>
 
@@ -323,10 +323,22 @@ function Projects() {
             <ProjectCard
               imgPath={denfah1}
               isBlog={false}
-              title="App Sheet : Equipment disbursement 📂"
+              title="App Sheet : Equipment disbursement # 1 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: Google Sheets , Google Form , AppSheet , AppScript , Line-notify"
+              description1="【 Details 📖】: An app about disbursing loans, repaying incoming loans Internal equipment"
+            />
+          </Col>
+
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={denfah3}
+              isBlog={false}
+              title="App Sheet : Equipment disbursement # 2 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: Google Sheets , Google Form , AppSheet , AppScript , Line-notify"
+              description1="【 Details 📖】: An app about disbursing loans, repaying incoming loans Internal equipment"
             />
           </Col>
 
@@ -336,21 +348,11 @@ function Projects() {
               isBlog={false}
               title="System for calculating the amount of leave, remaining leave days 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: Google Sheets , Google Form , AppSheet , AppScript , Line-notify"
+              description1="【 Details 📖】: App to check various rights Check past rights exercise history"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={denfah3}
-              isBlog={false}
-              title="App Sheet : Equipment disbursement 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -358,8 +360,8 @@ function Projects() {
               isBlog={false}
               title="AppScript : Notification job application form 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: Google Sheets , Google Form  , AppScript , Line-notify"
+              description1="【 Details 📖】: Job application notification system Ready to measure scores after filling out the form."
             />
           </Col>
 
@@ -369,8 +371,8 @@ function Projects() {
               isBlog={false}
               title="Learn React : Dynamic-dropdown-app 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons"
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
 
@@ -380,8 +382,8 @@ function Projects() {
               isBlog={false}
               title="Learn-React : Form-validation-app 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons"
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
 
@@ -391,8 +393,8 @@ function Projects() {
               isBlog={false}
               title="Learn : HTML CSS JavaScipt 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
+              description1="【 Details 📖】: Portfolio website for passing studies"
             />
           </Col>
 
@@ -402,8 +404,8 @@ function Projects() {
               isBlog={false}
               title="Learn : HTML CSS JavaScipt Search With API 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , Fetch API"
+              description1="【 Details 📖】: Image search website with API"
             />
           </Col>
 
@@ -413,8 +415,8 @@ function Projects() {
               isBlog={false}
               title="Website : Hybrid Sport 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: Wordpress , Plesk , PHP (basic) , HTML , CSS , Elementor pro , SEO Ranking "
+              description1="【 Details 📖】: Website selling shirts, producing and designing"
             />
           </Col>
 
@@ -424,8 +426,8 @@ function Projects() {
               isBlog={false}
               title="Learn React : Image-Carousel-React 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons , React fetch API "
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
 
@@ -435,8 +437,8 @@ function Projects() {
               isBlog={false}
               title="Learn React : Infinite-scroll-API 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons , React fetch API "
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
 
@@ -446,8 +448,8 @@ function Projects() {
               isBlog={false}
               title="Learn : NodeJS,Express,EJS 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , NodeJS , Express , EJS"
+              description1="【 Details 📖】: Web application with NodeJS and Express framework"
             />
           </Col>
 
@@ -455,10 +457,10 @@ function Projects() {
             <ProjectCard
               imgPath={Learn3}
               isBlog={false}
-              title="Learn React : Light-Dark-Mode 📂"
+              title="Learn React : Light-Dark-Mode # 1 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons  "
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
 
@@ -466,10 +468,10 @@ function Projects() {
             <ProjectCard
               imgPath={Learn4}
               isBlog={false}
-              title="Learn React : Light-Dark-Mode 📂"
+              title="Learn React : Light-Dark-Mode # 2 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons  "
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
 
@@ -479,7 +481,7 @@ function Projects() {
               isBlog={false}
               title="Line Chatbot : With Dialogflow 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
               description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
             />
           </Col>
@@ -490,8 +492,8 @@ function Projects() {
               isBlog={false}
               title="Website : MixPrint 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: Wordpress , Plesk , PHP (basic) , HTML , CSS , Elementor pro , SEO Ranking "
+              description1="【 Details 📖】: Website selling shirts, producing and designing"
             />
           </Col>
 
@@ -501,7 +503,7 @@ function Projects() {
               isBlog={false}
               title="Learn React : Navigation-app 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
               description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
             />
           </Col>
@@ -512,7 +514,7 @@ function Projects() {
               isBlog={false}
               title="Learn React : Pagination-app 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
               description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
             />
           </Col>
@@ -523,8 +525,8 @@ function Projects() {
               isBlog={false}
               title="Website : Polonext 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: Wordpress , Plesk , PHP (basic) , HTML , CSS , Elementor pro , SEO Ranking "
+              description1="【 Details 📖】: Website selling shirts, producing and designing"
             />
           </Col>
 
@@ -534,7 +536,7 @@ function Projects() {
               isBlog={false}
               title="Learn React : Quiz-app 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
               description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
             />
           </Col>
@@ -545,7 +547,7 @@ function Projects() {
               isBlog={false}
               title="Learn : React+Vite 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
               description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
             />
           </Col>
@@ -556,7 +558,7 @@ function Projects() {
               isBlog={false}
               title="Learn React : Basic-React 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
               description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
             />
           </Col>
@@ -567,7 +569,7 @@ function Projects() {
               isBlog={false}
               title="Learn React : Search-filter With API 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
               description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
             />
           </Col>
@@ -578,7 +580,7 @@ function Projects() {
               isBlog={false}
               title="Learn React : Shopping-App 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
               description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
             />
           </Col>
@@ -589,7 +591,7 @@ function Projects() {
               isBlog={false}
               title="Learn React : Task-app 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
               description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
             />
           </Col>
@@ -600,7 +602,7 @@ function Projects() {
               isBlog={false}
               title="Learn React : Todolist-App 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
               description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
             />
           </Col>
@@ -611,7 +613,7 @@ function Projects() {
               isBlog={false}
               title="Learn React+Vite : Search-Img-With API 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
               description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
             />
           </Col>
@@ -622,7 +624,7 @@ function Projects() {
               isBlog={false}
               title="Learn React : Weather-API-App 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool 】: HTML , CSS , JavaScript , Bootstrap"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
               description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
             />
           </Col>
