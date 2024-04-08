@@ -57,15 +57,13 @@ import TodolistApp from "../../Assets/Projects/project/Todolist-App.png";
 import ViteSearch from "../../Assets/Projects/project/Vite-Search-Img-API.png";
 import WeatherAPI from "../../Assets/Projects/project/Weather-API-App.png";
 
-
-
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My 
+          My
           <strong className="purple">Certificate </strong>
         </h1>
         <p style={{ color: "white" }}>
@@ -140,11 +138,10 @@ function Projects() {
             <ProjectCard
               imgPath={cer5}
               isBlog={false}
-              title="Fundamental Web Dev with HTML5 & CSS3 🌻" 
+              title="Fundamental Web Dev with HTML5 & CSS3 🌻"
               ghLink="https://github.com/Wisit018?tab=repositories"
               description="【 Details 📖】: 
               In the ( Fundamental Web Dev with HTML5 & CSS3 ) course, you will learn essential basics of HTML5 and CSS3, including introductory usage of Bootstrap."
-              
             />
           </Col>
 
@@ -152,13 +149,11 @@ function Projects() {
             <ProjectCard
               imgPath={cer6}
               isBlog={false}
-              title="Command Prompt 101 🌻"              
+              title="Command Prompt 101 🌻"
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               description="【 Details 📖】: Learn the fundamentals to become comfortable transitioning from GUI to Command Line on both Windows and macOS. This will help upgrade your skills, speed, and efficiency in your work. "
             />
           </Col>
-
-
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -219,95 +214,8 @@ function Projects() {
           <p style={{ color: "white" }}>
             Here are a few projects I've worked on recently.
           </p>
-{/* project1 */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={project1}
-              isBlog={false}
-              title="Accordion-learnReact 📂"              
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
-              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
-            />
-          </Col>
-{/* project2  */}
-          <Col md={4} className="project-card"> 
-            <ProjectCard
-              imgPath={atlux168}
-              isBlog={false}
-              title="Website atlux168 📂" 
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: Wordpress , Plesk , PHP (basic) , HTML , CSS , Elementor pro , SEO Ranking "
-              description1="【 Details 📖】: Atlux 168 product trading website"
-            />
-          </Col>
-{/* project3 */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={atluxerp}
-              isBlog={false}
-              title="Atlux168-ERP 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】:  HTML , CSS , JavaScript , ReactJS , ReactIcons , NodeJS , ExpressJS , MongoDB , Mongoose , JWT , Bcrypt , Axios , Bootstrap , React-Bootstrap , React-Router-Dom , React-Icons "
-              description1="【 Details 📖】: Internal management system website, login system, user level, document system, send documents, open bills, send mail, notifications"
-            />
-          </Col>
-{/* project4 */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={BlogApp}
-              isBlog={false}
-              title="BlogApp-LearnReact 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , ReactJS , ReactIcons , Bootstrap , React-Bootstarp"
-              description1="【 Details 📖】: Learn to develop web applications with React 18, React Router V6, React Hook from start to actual use, Step by Step."
-            />
-          </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bmijs}
-              isBlog={false}
-              title="Website Calculator BMI-Learn Html CSS JS 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 📖】: This website helps you easily calculate your body mass index (BMI). Just enter your personal information such as gender, age, weight and height and the website will calculate your BMI and display the results along with relevant recommendations."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={BMINode}
-              isBlog={false}
-              title="Website Calculator BMI-Learn NodeJS ExpressJS 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , NodeJS , ExpressJS , Nodemon " 
-              description1="【 Details 📖】: This website helps you easily calculate your body mass index (BMI). Just enter your personal information such as gender, age, weight and height and the website will calculate your BMI and display the results along with relevant recommendations."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={calcultorApp}
-              isBlog={false}
-              title="Website Calculator App React 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons"
-              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Currency}
-              isBlog={false}
-              title="Website Currency-converter-API 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons , React fetch API "
-              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
-            />
-          </Col>
-
+          {/* All */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={denfah}
@@ -316,6 +224,28 @@ function Projects() {
               ghLink="https://github.com/Wisit018?tab=repositories"
               description="【 Tool ⚙️】: Wordpress , Plesk , PHP (basic) , HTML , CSS , Elementor pro , SEO Ranking"
               description1="【 Details 📖】: Denfah printing website, website about printing media Printing business"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={atlux168}
+              isBlog={false}
+              title="Website atlux168 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: Wordpress , Plesk , PHP (basic) , HTML , CSS , Elementor pro , SEO Ranking "
+              description1="【 Details 📖】: Atlux 168 product trading website"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={atluxerp}
+              isBlog={false}
+              title="Atlux168-ERP 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】:  HTML , CSS , JavaScript , ReactJS , ReactIcons , NodeJS , ExpressJS , MongoDB , Mongoose , JWT , Bcrypt , Axios , Bootstrap , React-Bootstrap , React-Router-Dom , React-Icons "
+              description1="【 Details 📖】: Internal management system website, login system, user level, document system, send documents, open bills, send mail, notifications"
             />
           </Col>
 
@@ -330,7 +260,6 @@ function Projects() {
             />
           </Col>
 
-          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={denfah3}
@@ -353,7 +282,6 @@ function Projects() {
             />
           </Col>
 
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={denfahnoti}
@@ -367,23 +295,68 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Dynamic}
+              imgPath={hybridsport}
               isBlog={false}
-              title="Learn React : Dynamic-dropdown-app 📂"
+              title="Website : Hybrid Sport 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons"
-              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
+              description="【 Tool ⚙️】: Wordpress , Plesk , PHP (basic) , HTML , CSS , Elementor pro , SEO Ranking "
+              description1="【 Details 📖】: Website selling shirts, producing and designing"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={validation}
+              imgPath={Linebot}
               isBlog={false}
-              title="Learn-React : Form-validation-app 📂"
+              title="Line Chatbot : With Dialogflow 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons"
-              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
+              description="【 Tool ⚙️】: Line , Line bot designer, DialogFlow , NodeJS , Express , JavaScript "
+              description1="【 Details 📖】: Chatbot for answering customer questions By extracting answers from the database Come analyze and answer questions."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mixprint}
+              isBlog={false}
+              title="Website : MixPrint 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: Wordpress , Plesk , PHP (basic) , HTML , CSS , Elementor pro , SEO Ranking "
+              description1="【 Details 📖】: Website selling shirts, producing and designing"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={polonext}
+              isBlog={false}
+              title="Website : Polonext 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: Wordpress , Plesk , PHP (basic) , HTML , CSS , Elementor pro , SEO Ranking "
+              description1="【 Details 📖】: Website selling shirts, producing and designing"
+            />
+          </Col>
+          {/* Learn */}
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bmijs}
+              isBlog={false}
+              title="Website Calculator BMI-Learn Html CSS JS 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
+              description1="【 Details 📖】: This website helps you easily calculate your body mass index (BMI). Just enter your personal information such as gender, age, weight and height and the website will calculate your BMI and display the results along with relevant recommendations."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BMINode}
+              isBlog={false}
+              title="Website Calculator BMI-Learn NodeJS ExpressJS 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , NodeJS , ExpressJS , Nodemon "
+              description1="【 Details 📖】: This website helps you easily calculate your body mass index (BMI). Just enter your personal information such as gender, age, weight and height and the website will calculate your BMI and display the results along with relevant recommendations."
             />
           </Col>
 
@@ -411,12 +384,126 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={hybridsport}
+              imgPath={Learn2}
               isBlog={false}
-              title="Website : Hybrid Sport 📂"
+              title="Learn : NodeJS,Express,EJS 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: Wordpress , Plesk , PHP (basic) , HTML , CSS , Elementor pro , SEO Ranking "
-              description1="【 Details 📖】: Website selling shirts, producing and designing"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , NodeJS , Express , EJS"
+              description1="【 Details 📖】: Web application with NodeJS and Express framework"
+            />
+          </Col>
+
+          {/* Learn React 18 */}
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BlogApp}
+              isBlog={false}
+              title="BlogApp-LearnReact 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , ReactJS , ReactIcons , Bootstrap , React-Bootstarp"
+              description1="【 Details 📖】: Learn to develop web applications with React 18, React Router V6, React Hook from start to actual use, Step by Step."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ReactVite}
+              isBlog={false}
+              title="Learn : React+Vite 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , ReactJS , ReactIcons , Bootstrap , React-Bootstarp"
+              description1="【 Details 📖】: Learn to develop web applications with React 18, React Router V6, React Hook from start to actual use, Step by Step."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ShoppingApp}
+              isBlog={false}
+              title="Learn React : Shopping-App 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , ReactJS , ReactIcons , Bootstrap , React-Bootstarp"
+              description1="【 Details 📖】: Learn to develop web applications with React 18, React Router V6, React Hook from start to actual use, Step by Step."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={taskApp}
+              isBlog={false}
+              title="Learn React : Task-app 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , ReactJS , ReactIcons , Bootstrap , React-Bootstarp"
+              description1="【 Details 📖】: Learn to develop web applications with React 18, React Router V6, React Hook from start to actual use, Step by Step."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ViteSearch}
+              isBlog={false}
+              title="Learn React+Vite : Search-Img-With API 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , ReactJS , ReactIcons , Bootstrap , React-Bootstarp"
+              description1="【 Details 📖】: Learn to develop web applications with React 18, React Router V6, React Hook from start to actual use, Step by Step."
+            />
+          </Col>
+
+          {/* Learn React 17 */}
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={project1}
+              isBlog={false}
+              title="Accordion-learnReact 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={calcultorApp}
+              isBlog={false}
+              title="Website Calculator App React 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons"
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Currency}
+              isBlog={false}
+              title="Website Currency-converter-API 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons , React fetch API "
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Dynamic}
+              isBlog={false}
+              title="Learn React : Dynamic-dropdown-app 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons"
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={validation}
+              isBlog={false}
+              title="Learn-React : Form-validation-app 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons"
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
 
@@ -444,17 +531,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Learn2}
-              isBlog={false}
-              title="Learn : NodeJS,Express,EJS 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , NodeJS , Express , EJS"
-              description1="【 Details 📖】: Web application with NodeJS and Express framework"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={Learn3}
               isBlog={false}
               title="Learn React : Light-Dark-Mode # 1 📂"
@@ -477,34 +553,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Linebot}
-              isBlog={false}
-              title="Line Chatbot : With Dialogflow 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={mixprint}
-              isBlog={false}
-              title="Website : MixPrint 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: Wordpress , Plesk , PHP (basic) , HTML , CSS , Elementor pro , SEO Ranking "
-              description1="【 Details 📖】: Website selling shirts, producing and designing"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={Navigationapp}
               isBlog={false}
               title="Learn React : Navigation-app 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons , React fetch API "
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
 
@@ -514,19 +568,8 @@ function Projects() {
               isBlog={false}
               title="Learn React : Pagination-app 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={polonext}
-              isBlog={false}
-              title="Website : Polonext 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: Wordpress , Plesk , PHP (basic) , HTML , CSS , Elementor pro , SEO Ranking "
-              description1="【 Details 📖】: Website selling shirts, producing and designing"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons , React fetch API "
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
 
@@ -536,19 +579,8 @@ function Projects() {
               isBlog={false}
               title="Learn React : Quiz-app 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ReactVite}
-              isBlog={false}
-              title="Learn : React+Vite 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons , React fetch API "
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
 
@@ -558,8 +590,8 @@ function Projects() {
               isBlog={false}
               title="Learn React : Basic-React 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons , React fetch API "
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
 
@@ -569,52 +601,8 @@ function Projects() {
               isBlog={false}
               title="Learn React : Search-filter With API 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ShoppingApp}
-              isBlog={false}
-              title="Learn React : Shopping-App 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={taskApp}
-              isBlog={false}
-              title="Learn React : Task-app 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={TodolistApp}
-              isBlog={false}
-              title="Learn React : Todolist-App 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ViteSearch}
-              isBlog={false}
-              title="Learn React+Vite : Search-Img-With API 📂"
-              ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons , React fetch API "
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
 
@@ -624,10 +612,22 @@ function Projects() {
               isBlog={false}
               title="Learn React : Weather-API-App 📂"
               ghLink="https://github.com/Wisit018?tab=repositories"
-              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap"
-              description1="【 Details 】: HTML , CSS , JavaScript , ReactJS , ReactIcons"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons , React fetch API "
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TodolistApp}
+              isBlog={false}
+              title="Learn React : Todolist-App 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: HTML , CSS , JavaScript , Bootstrap , ReactJS , ReactIcons , React fetch API "
+              description1="【 Details 📖】: Developing frontend web applications with React version 17 and React Hooks, step by step."
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
