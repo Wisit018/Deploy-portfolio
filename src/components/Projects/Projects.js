@@ -57,6 +57,11 @@ import TodolistApp from "../../Assets/Projects/project/Todolist-App.png";
 import ViteSearch from "../../Assets/Projects/project/Vite-Search-Img-API.png";
 import WeatherAPI from "../../Assets/Projects/project/Weather-API-App.png";
 
+import tpnext1 from "../../Assets/Projects/project/template-next.png";
+import tpnext2 from "../../Assets/Projects/project/server-action.png";
+import tpnext3 from "../../Assets/Projects/project/login-register-react.png";
+import tpnext4 from "../../Assets/Projects/project/login-mongo.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -70,6 +75,11 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+
+
+
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cer1}
@@ -216,6 +226,52 @@ function Projects() {
           </p>
 
           {/* All */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tpnext1}
+              isBlog={false}
+              title="Website Create NextJS V.14 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: Html , Css , JavaScript , Next , React , React-dom , Tailwindcss ,"
+              description1="【 Details 📖】: Website Create NextJS V.14 "
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tpnext2}
+              isBlog={false}
+              title="NextJS Server-Action 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】:  Html , Css , JavaScript , TypeScript , NextJS , React , react-dom , tailwindcss "
+              description1="【 Details 📖】: NextJS website uses a built-in server to divide work between Client - Server. "
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tpnext3}
+              isBlog={false}
+              title="Website Login-Register With API 📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: Html , Css , JavaScript , React ,React Icon , Mui , sweetalert2 , react-router-dom"
+              description1="【 Details 📖】: Website Login-Register With API "
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tpnext4}
+              isBlog={false}
+              title="Website Login-Register Encrypt-password📂"
+              ghLink="https://github.com/Wisit018?tab=repositories"
+              description="【 Tool ⚙️】: Html , Css , JavaScript , NodeJS , Express , ejs , mongo , mongoose , nodemon , bcrypt , BootStrap"
+              description1="【 Details 📖】: login, Register save data to Database mongoDB with password encryption for storing password data. "
+            />
+          </Col>
+
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={denfah}
