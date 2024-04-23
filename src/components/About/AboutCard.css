@@ -1,0 +1,14 @@
+/* styles.css */
+
+/* สไตล์สำหรับ responsive */
+@media (max-width: 375px) {
+    .quote-card-view {
+      padding: 10px; /* เพิ่ม padding เพื่อลดระยะห่างรอบขอบของการ์ด */
+    }
+    .blockquote {
+      font-size: 14px; /* ลดขนาดตัวอักษรของ blockquote */
+    }
+    .about-activity {
+      font-size: 12px; /* ลดขนาดตัวอักษรของกิจกรรม */
+    }
+  }
